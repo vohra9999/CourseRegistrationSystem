@@ -1,16 +1,18 @@
+$(document).ready(function () {
 
-function setup()
-{
-  createCanvas(windowWidth,windowHeight);
-  stroke(255);
- 
+  $('#login').click(function () {
 
-  var login_button= createButton("Login");
-  login_button.mousePressed()
+    event.preventDefault();
 
-}
+    var validSiD = $('#inputSid').val() === 'Stu';
+    var validPass = $('#inputPassword').val() === 'Dent';
 
-function draw() 
-{
-  
-}
+    if (validSiD === true && validPass === true) { // if ValidEmail & ValidPassword
+
+      window.location.href = './html/HomePage.html'; // go to home.html
+    } 
+
+
+  });
+
+});

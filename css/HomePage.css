@@ -4,8 +4,24 @@ body
 
 }
 
-.jumbotron{
-  height: 1.42em;
-
+#Title{
+  height: 1.22em;
 }
+
+
+#one{
+	letter-spacing: 0.15em;
+	text-indent: 2.25em;
+/*  line-height: inherit;*/
+  font: sans-serif;
+  text-shadow: 3px 2px greenyellow;
+	position: relative;
+	top: auto;
+
+  
+}
+
+
+
+
 
