@@ -6,18 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HomePage</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-	 crossorigin="anonymous" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" type="text/css">
 
-	<link rel="stylesheet" href="../css/HomePage.css" type="text/css">
-	<script src="../../js/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-	 crossorigin="anonymous" type="text/javascript"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" type="text/javascript"></script>
 	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 	 crossorigin="anonymous" type="text/javascript"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="../js/HomePage.js"></script>
-
+	<link rel="stylesheet" href="../css/HomePage.css" type="text/css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js" type="text/javascript"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js" type="text/javascript"></script>
 
@@ -36,73 +35,82 @@
 
 <body>
 
-	<div id="Title" class="jumbotron" onClick="HomePage.html" container-fluid style="background-color:#18EBC1;">
-		<a href="HomePage.html">
-			<strong>
-				<h1 id="H1-Title" class=" card-title pricing-card-title">MyCourses</h1>
-			</strong>
-		</a>
+	<div id="Title" class="jumbotron" container-fluid style="background-color:#18EBC1;">
+		<h1 id="H1-Title" class=" display-4"><a href="HomePage.html">
+				MyCourses
+			</a></h1>
 	</div>
 
 	<div class="container-fluid" id="NavBar">
-
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-		<nav class="my-2 my-md-0 mr-md-auto">
-			<a class="p-2 text-dark" href="./HomePage.html">Home</a>
-		</nav>
+		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+			<nav class="my-2 my-md-0 mr-md-auto">
+				<a class="h4" href="./HomePage.html">Home</a>
+			</nav>
 			<a class="btn btn-outline-primary" href="../index.html">Logout</a>
+		</div>
 	</div>
-</div>
 
 	<div class="container">
-		<div class="card-deck mb-3 text-center">
-			<div class="card mb-4 box-shadow">
-				<div class="card-header">
-					<h4 class="my-0 font-weight-normal">Free</h4>
-				</div>
-				<div class="card-body">
-					<h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-					<ul class="list-unstyled mt-3 mb-4">
-						<li>10 users included</li>
-						<li>2 GB of storage</li>
-						<li>Email support</li>
-						<li>Help center access</li>
-					</ul>
-					<button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-				</div>
+		<div class="row">
+
+
+			<div class="col-sm-3">
+				<a href="Registrations.html">
+					<div class="card-deck mb-3 text-center">
+						<div class="card mb-4 box-shadow">
+							<img class="car-img-top rounded-circle" src="../images/profile.png" alt="registrations">
+							<div class="card-body">
+								<h5 class="card-title pricing-card-title">Registrations </h5>
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>10 users incsdlkijvsdiovj iosd sodi hdsihuluded</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</a>
+
+
 			</div>
-			<div class="card mb-4 box-shadow">
-				<div class="card-header">
-					<h4 class="my-0 font-weight-normal">Pro</h4>
-				</div>
-				<div class="card-body">
-					<h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-					<ul class="list-unstyled mt-3 mb-4">
-						<li>20 users included</li>
-						<li>10 GB of storage</li>
-						<li>Priority email support</li>
-						<li>Help center access</li>
-					</ul>
-					<button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-				</div>
+			<div class="col-sm-3">
+				<a href="StudentRecords.html">
+					<div class="card-deck mb-3 text-center">
+						<div class="card mb-4 box-shadow">
+							<img class="car-img-top rounded-circle" src="../images/profile.png" alt="Student Records">
+							<div class="card-body">
+								<h5 class="card-title pricing-card-title">Student Records </h5>
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>10 users incsdlkijvsdiovj iosd sodi hdsihuluded</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</a>
+
+
+
 			</div>
-			<div class="card mb-4 box-shadow">
-				<div class="card-header">
-					<h4 class="my-0 font-weight-normal">Enterprise</h4>
-				</div>
-				<div class="card-body">
-					<h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-					<ul class="list-unstyled mt-3 mb-4">
-						<li>30 users included</li>
-						<li>15 GB of storage</li>
-						<li>Phone and email support</li>
-						<li>Help center access</li>
-					</ul>
-					<button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
-				</div>
+
+			<div class="col-sm-3">
+				<a href="ProgramInformation.html">
+					<div class="card-deck mb-3 text-center">
+						<div class="card mb-4 box-shadow">
+							<img class="car-img-top rounded-circle" src="../images/profile.png" alt="Program Information">
+							<div class="card-body">
+								<h5 class="card-title pricing-card-title"> Program Information </h5>
+								<ul class="list-unstyled mt-3 mb-4">
+									<li>10 users incsdlkijvsdiovj iosd sodi hdsihuluded</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</a>
+
 			</div>
 		</div>
 	</div>
+
+
 
 	<!--
 <a href="Registrations.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Registrations</a>
