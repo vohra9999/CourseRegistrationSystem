@@ -1,25 +1,32 @@
 body
 {
-  padding-top: 0.1em;
+  /* padding-top: 0.1em; */
 
 }
 
 #Title{
-  height: 1.22em;
-}
-
-
-#one{
-	letter-spacing: 0.15em;
-	text-indent: 2.25em;
-/*  line-height: inherit;*/
-  font: sans-serif;
-  text-shadow: 3px 2px greenyellow;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	margin-bottom: 0;
 	position: relative;
-	top: auto;
-
   
 }
+
+
+#H1-Title{
+	/* padding:5px 5px 5px 5px; */
+	letter-spacing: .15em;
+	text-indent: 2.25em;
+
+}
+
+#NavBar{
+	padding-left: 92px;
+	padding-right: 92px; 
+	
+}
+
+
 
 
 

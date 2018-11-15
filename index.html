@@ -17,8 +17,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script> -->
@@ -26,15 +25,14 @@
 
   <script src="js/login.js"></script>
 
-
-
 </head>
 
-<body class="text-center">
+<body>
   <form class="form-signin">
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <h1 class="h3 mb-3 font-weight-normal" align="center">Please sign in</h1>
+	<img src="..." alt="..." class="rounded-circle">
     <label for="StudentNumber" class="sr-only">Student Number</label>
-    <input type="text" id="inputSid" class="form-control" placeholder=" Student Number" required autofocus>
+    <input type="email" id="inputSid" class="form-control" placeholder=" Student Number" required autofocus>
     <label for="inputPassword" class="sr-only">Password</label>
     <input type="password" id="inputPassword" class="form-control" placeholder=" Password" required>
     <div class="checkbox mb-3">
@@ -43,7 +41,8 @@
       </label>
     </div>
     <button class="btn btn-lg btn-primary btn-block" id="login" type="submit">Sign in</button>
-  
+
   </form>
 </body>
+
 </html>

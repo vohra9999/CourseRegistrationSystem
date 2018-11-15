@@ -1,18 +1,14 @@
-$(document).ready(function () {
+$(document).ready(() => $('#login').click(() => {
 
-  $('#login').click(function () {
+  event.preventDefault();
 
-    event.preventDefault();
+  var validSiD = $('#inputSid').val() === 'Stu@my';
+  var validPass = $('#inputPassword').val() === 'Dent';
 
-    var validSiD = $('#inputSid').val() === 'Stu';
-    var validPass = $('#inputPassword').val() === 'Dent';
+  if (validSiD === true && validPass === true) { // if ValidEmail & ValidPassword
 
-    if (validSiD === true && validPass === true) { // if ValidEmail & ValidPassword
-
-      window.location.href = './html/HomePage.html'; // go to home.html
-    } 
+    window.location.href = './html/HomePage.html'; // go to home.html
+  }
 
 
-  });
-
-});
+}));
