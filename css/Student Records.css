@@ -15,3 +15,15 @@
   text-indent: 2.25em;
 
 }
+
+#NavBar {
+  padding-left: 140px;
+  padding-right: 92px;
+
+}
+
+.h4,
+h4 {
+  font-size: 1rem;
+  padding: .5rem;
+}
