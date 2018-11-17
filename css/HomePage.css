@@ -5,7 +5,7 @@
 	padding-bottom: 32px;
 	margin-bottom: 0;
 	position: relative;
-  
+
 }
 
 
@@ -18,19 +18,11 @@
 
 #NavBar{
 	padding-left: 140px;
-	padding-right: 92px; 
-	
+	padding-right: 92px;
+
 }
 
-/* .mr-md-auto,
-.mx-md-auto {
-	margin-right: auto !important;
-	margin-left: auto;
-} */
-
-
-
-
-
-
-
+.h4, h4 {
+    font-size: 1rem;
+    padding: .5rem;
+}
