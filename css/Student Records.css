@@ -1,9 +1,29 @@
-body {
-  padding-top: 0.1em;
+
+
+#Title {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 0;
+  position: relative;
 
 }
 
-.jumbotron {
-  height: 1.42em;
 
+#H1-Title {
+  /* padding:5px 5px 5px 5px; */
+  letter-spacing: .1em;
+  text-indent: 2.25em;
+
+}
+
+#NavBar {
+  padding-left: 140px;
+  padding-right: 92px;
+
+}
+
+.h4,
+h4 {
+  font-size: 1rem;
+  padding: .5rem;
 }
